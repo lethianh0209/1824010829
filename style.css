@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.row {
+    display: flex;
+}
+
+.row .col-5 {
+    width: 400px;
+    height: auto;
+    background-color: #efefef;
+}
+
+.row .col-5 .profile {
+    width: 100%;
+    height: 430px;
+    background-color: #6699ff;
+}
+
+.row .col-5 .profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 8px solid white;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.row .col-5 .profile h5 {
+    margin-left: 100px;
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.row .col-5 .profile h3 {
+    margin-left: 85px;
+    margin-top: 15px;
+    color: white;
+    font-size: 34px;
+}
+
+.row .col-5 .content {
+    margin-top: 25px;
+}
+
+.row .col-5 .content .lienhe {
+    margin-left: 15px;
+}
+
+.row .col-5 .content .lienhe p {
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.row .col-5 .content .lienhe a {
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.row .col-5 .content .lienhe ul li {
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+.row .col-5 .content .muctieu {
+    margin-left: 15px;
+}
+
+.row .col-5 .content .muctieu p {
+    margin-top: 20px;
+}
+
+.row .col-7 {
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 950px;
+}
+
+.row .col-7 .head {
+    width: 1100px;
+    height: 120px;
+    background-color: #99CCFF;
+    margin-left: -90px;
+    margin-top: -30px;
+}
+
+.row .col-7 .head h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.row .col-7 .head h4 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.row .col-7 h2 {
+    margin-top: 30px;
+    margin-left: 0px;
+    border-bottom: 1px solid black;
+}
+
+.row .col-7 .info {
+    display: flex;
+    margin-top: 30px;
+}
+
+.row .col-7 .info .info_left {
+    width: 200px;
+}
+
+.row .col-7 .info .info_left h4 {
+    color: blue;
+}
+
+.row .col-7 .info .info_right {
+    width: 100%;
+}
+
+.row .col-7 .info h4 {
+    color: blue;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+}
