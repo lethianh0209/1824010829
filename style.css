@@ -35,19 +35,19 @@ body {
     height: 300px;
     border-radius: 50%;
     border: 8px solid white;
-    margin-left: 33px;
+    margin-left: 4px;
     margin-top: 30px;
 }
 
 .row .col-5 .profile h5 {
-    margin-left: 95px;
+    margin-left: 70px;
     margin-top: 10px;
     color: white;
     font-size: 12px;
 }
 
 .row .col-5 .profile h3 {
-    margin-left: 80px;
+    margin-left: 55px;
     margin-top: 15px;
     color: white;
     font-size: 34px;
